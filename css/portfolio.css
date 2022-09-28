@@ -1,0 +1,288 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  /* border: 2px solid red; */
+}
+/* хедер */
+.nav-item {
+  margin-right: 55px;
+}
+
+.contact-item:first-child {
+  margin-right: 50px;
+}
+
+header .container {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  align-items: center;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contact-list {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  margin-right: auto;
+  align-content: center;
+}
+
+.contact-link {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+}
+
+.contact-link:hover {
+  color: #2196f3;
+}
+
+.header-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo-color {
+  color: #000000;
+  margin-right: 95px;
+}
+
+.nav-page {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+
+/* мийн */
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  background: #ffffff;
+  padding-bottom: 95px;
+}
+
+.button-item {
+  padding-top: 95px;
+  margin-right: 8px;
+}
+
+.card-item {
+  margin-bottom: 30px;
+  margin-right: 28px;
+  border: 1px solid #eeeeee;
+}
+
+.card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.6;
+  margin-right: 25px;
+  margin-left: 25px;
+  color: #212121;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.card-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.5;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  color: #757575;
+}
+
+.button-list {
+  justify-content: center;
+  display: flex;
+
+  padding-bottom: 50px;
+  padding-top: 5px;
+}
+
+.list-button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.card-imege {
+  width: 370px;
+  height: 295px;
+}
+
+.list-button {
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  border: none;
+  padding: 6px 27px 6px 27px;
+  border-radius: 4px;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/* футeр */
+
+header {
+  border: 1px solid #ececec;
+}
+
+.footer-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  display: flex;
+}
+
+.footer-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0.83;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+  padding-top: 60px;
+}
+
+.footer-color {
+  padding-top: 60px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+footer {
+  background-color: #2f303a;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+.footer-adress {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 9px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.footer-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 9px;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-text:last-child {
+  margin-bottom: 0;
+}
+
+/* <!-- Приєднуйтесь --> */
+
+.join-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.8;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 10px;
+  color: #ffffff;
+
+  margin-left: 70px;
+  margin-bottom: 20px;
+  padding-top: 92px;
+}
+
+.join-list {
+  display: flex;
+}
+
+.join-item {
+  margin-left: 10px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+}
+
+.join-item:nth-child(1) {
+  margin-left: 70px;
+}
+
+.join-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.join-item:hover {
+  background-color: #2196f3;
+  border-radius: 50%;
+}
